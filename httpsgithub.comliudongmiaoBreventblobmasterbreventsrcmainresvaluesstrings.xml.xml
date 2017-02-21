@@ -1,0 +1,123 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name">黑域</string>
+
+    <string name="fragment_guide_welcome">歡迎安裝黑域</string>
+    <string name="fragment_guide_welcome_message">Android 系統離開軟體可以通過兩種按鍵，BACK 退出軟體回到上層，HOME 把軟體放到後台打開啟動器；同時，允許軟體使用一直運行的服務。當然，您也可以直接從最近列表劃掉某個軟體，表明不再使用。
+
+黑域通過這種方式識別您是否打開或已經退出，阻斷黑域清單裡的軟體在沒有使用的時候長期運行。對於被惡意喚醒的軟體，一律強行停止。</string>
+    <string name="fragment_guide_welcome_message2">黑域很喜歡 Android 的設計，當您使用 BACK 退出軟體時，軟體及所包含的服務不再運行；當您使用 HOME 把軟體放到後台時，後台軟體及所包含的服務可以繼續運行一段時間（您可在黑域設定中修改）；當您從最近列表劃掉時，表明不再需要。在黑域管理界面，會顯示還未退出軟體的使用時長。</string>
+
+    <string name="fragment_guide_permission">黑域所需權限</string>
+    <string name="fragment_guide_permission_message">黑域需要您開機以後，以調試模式執行一個命令開啟黑域服務，讓黑域間接持有管理其它軟體的權限。</string>
+    <string name="fragment_guide_permission_message2">"其它類似軟體需要 ROOT 權限，或解鎖變更系統文件以擁有這些權限。黑域所需的調試模式不需要 ROOT，也不需要解鎖，您可放心使用。"</string>
+
+    <string name="fragment_guide_security">潛在安全隱患</string>
+    <string name="fragment_guide_security_message">黑域需要調試模式開啟黑域服務。但是調試模式比較危險，在啟動黑域服務後，如無特殊需要，請您關閉調試模式。</string>
+    <string name="fragment_guide_security_message2">黑域使用 Android 隱藏 API 以獲取其它軟體運行訊息，黑域其他軟體。但是有些第三方系統可能改變這些隱藏 API 行為，對設備造成未知影響。</string>
+
+    <string name="fragment_guide_enjoy">開始使用黑域</string>
+    <string name="fragment_guide_enjoy_message">請盡情享受黑域，發現任何問題或有任何建議，敬請提交反應。</string>
+    <string name="fragment_guide_enjoy_message2">黑域默認使用休眠黑域軟體。如果您發現黑域後的軟體還在運行，請使用黑域或者其它類似工具（如開發者選項中的未啟用的軟體）查看是否處於休眠狀態。
+
+此外，為了降低自身耗電，黑域集中處理，效果並不是那麼及時，根據級別延後 3 到 60 秒不等。
+
+當您從最近列表劃掉軟體時，系統會殺掉程式，黑域也將直接強行停止它。</string>
+
+    <string name="start_brevent">進入黑域</string>
+
+    <string name="brevent_service_start">請啟動黑域服務</string>
+    <string name="brevent_service_restart">請重啟黑域服務</string>
+    <string name="brevent_service_guide">1. 開啟“開發者選項”，啟用“USB調試” %1$s
+
+2. 使用 USB 連接到電腦
+
+3. 在電腦命令行中執行: %2$s (已複製到剪貼簿)</string>
+    <string name="brevent_service_open_development">前往"開發人員選項"</string>
+    <string name="brevent_service_adb_running">(已啟用)</string>
+
+    <string name="fragment_apps_user">用戶軟體</string>
+    <string name="fragment_apps_system">系統軟體</string>
+    <string name="fragment_apps_framework">框架軟體</string>
+
+    <string name="process_retrieving">正在獲取程式狀態，請稍候. . .</string>
+    <string name="process_retrieving_apps">正在獲取軟體訊息，請稍候. . .</string>
+
+    <string name="process_status_running">正在運行</string>
+    <string name="process_status_standby">已經休眠</string>
+    <string name="process_status_stopped">未運行</string>
+    <string name="process_not_running">(未運行)</string>
+    <string name="process_all_top" tools:ignore="PluralsCandidate">%d 個前台</string>
+    <string name="process_all_service" tools:ignore="PluralsCandidate">%d 個服務</string>
+    <string name="process_all_cached" tools:ignore="PluralsCandidate">%d 個緩存</string>
+    <string name="process_all_total">%d 個</string>
+    <string name="process_top" tools:ignore="PluralsCandidate">%d 前台</string>
+    <string name="process_service" tools:ignore="PluralsCandidate">%d 服務</string>
+    <string name="process_cached" tools:ignore="PluralsCandidate">%d 緩存</string>
+    <string name="process_total">共 %d 個</string>
+    <plurals name="process_process">
+        <item quantity="one">&#160;處理</item>
+        <item quantity="other">&#160;過程</item>
+    </plurals>
+
+    <string name="action_brevent">加入黑域</string>
+    <string name="action_restore">不再黑域</string>
+    <string name="action_select_important">重要</string>
+    <string name="action_select_inverse">反選</string>
+    <string name="action_brevent_results" tools:ignore="PluralsCandidate">成功黑域 %d 個軟體</string>
+    <string name="action_restore_results" tools:ignore="PluralsCandidate">不再黑域 %d 個軟體</string>
+    <string name="action_snackbar_undo">撤除</string>
+    <string name="action_snackbar_undone">已撤除</string>
+
+    <string name="context_menu_choose">選擇</string>
+    <string name="context_menu_package_name">複製包名</string>
+    <string name="context_menu_app_info">軟體訊息</string>
+    <string name="context_menu_open">打開</string>
+    <string name="context_menu_brevent_server_info">黑域服務訊息</string>
+    <string name="context_menu_snackbar_copied">包名已複製: %s</string>
+
+    <!-- menu -->
+    <string name="menu_feedback">反應</string>
+    <string name="menu_settings">設定</string>
+    <string name="menu_guide">向導</string>
+
+    <!-- settings brevent list -->
+    <string name="brevent_list">黑域清單</string>
+    <string name="brevent_auto">自動黑域</string>
+    <string name="brevent_auto_label">軟體安裝或刪除之後，更新黑域清單</string>
+    <string name="brevent_move_back">黑域 BACK 移到後台</string>
+    <string name="brevent_move_back_label">有些軟體在您按 BACK 時，不執行正常的 BACK 操作，移到後台。如果您並不是很清楚的知道 BACK 與 HOME 的區別，請關閉這個選項（僅支持 Android 7.0 及以上）</string>
+    <string name="brevent_back_home">黑域 BACK 打開啟動器</string>
+    <string name="brevent_back_home_label">有些軟體在您按 BACK 時，不執行正常的 BACK 操作，打開啟動器。如果您並不是很清楚的知道 BACK 與 HOME 的區別，請關閉這個選項。絕大部分情況下黑域都能有效區分，您也可連按 7 次 HOME 鍵來幫助黑域確認</string>
+    <string name="brevent_timeout">黑域後台軟體時間</string>
+    <string name="brevent_timeout_label">離開後台軟體 %1$s後。後台軟體是指您還未退出的軟體，主界面動態顯示離開時間</string>
+    <string name="brevent_timeout_never">永不</string>
+    <string name="brevent_timeout_5min">5 分鐘</string>
+    <string name="brevent_timeout_10min">10 分鐘</string>
+    <string name="brevent_timeout_15min">15 分鐘</string>
+    <string name="brevent_timeout_30min">30 分鐘</string>
+    <string name="brevent_timeout_1hour">1 小時</string>
+    <string name="brevent_appops_background">使用原生後台限制</string>
+    <string name="brevent_appops_background_label">建議關閉。帳號同步與定時任務不再生效，即使您刪除黑域也將持續（僅支持 Android 7.0 及以上）</string>
+    <string name="brevent_method">黑域方式</string>
+    <string name="brevent_method_standby">優先休眠（非充電時），然後強行停止</string>
+
+    <!-- settings user interface -->
+    <string name="brevent_ui">用戶界面</string>
+    <string name="show_donation">顯示捐贈</string>
+    <string name="show_donation_play_one">感謝您在 Play 商店捐贈 %d 美金</string>
+    <string name="show_donation_play_multi" tools:ignore="PluralsCandidate">感謝您在 Play 商店捐贈 %1$d 次共 %2$d 美金</string>
+    <string name="show_all_apps">顯示所有軟體</string>
+    <string name="show_all_apps_label">包括無法打開的系統軟體和框架軟體</string>
+    <string name="show_framework_apps">顯示框架軟體</string>
+    <string name="show_framework_apps_label">所有與系統框架簽名相同的軟體</string>
+
+    <string name="feedback_message">歡迎提交任何反應</string>
+    <string name="feedback_message_email">私人訊息，請發送信件。</string>
+    <string name="feedback_github">GitHub</string>
+    <string name="feedback_email">信箱</string>
+    <string name="translator">LemBut</string>
+
+</resources>
