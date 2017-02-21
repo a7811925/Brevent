@@ -5,10 +5,10 @@
     <string name="app_name">黑域</string>
 
     <string name="fragment_guide_welcome">歡迎安裝黑域</string>
-    <string name="fragment_guide_welcome_message">Android 系統離開軟體可以通過兩種按鍵，BACK 退出軟體回到上層，HOME 把軟體放到後台打開啟動器；同時，允許軟體使用一直運行的服務。當然，您也可以直接從最近列表劃掉某個軟體，表明不再使用。
+    <string name="fragment_guide_welcome_message">Android 系統離開軟體可以通過兩種按鍵，返回鍵退出軟體回到上層，HOME 把軟體放到後台打開啟動器；同時，允許軟體使用一直運行的服務。當然，您也可以直接從最近列表劃掉某個軟體，表明不再使用。
 
 黑域通過這種方式識別您是否打開或已經退出，阻斷黑域清單裡的軟體在沒有使用的時候長期運行。對於被惡意喚醒的軟體，一律強行停止。</string>
-    <string name="fragment_guide_welcome_message2">黑域很喜歡 Android 的設計，當您使用 BACK 退出軟體時，軟體及所包含的服務不再運行；當您使用 HOME 把軟體放到後台時，後台軟體及所包含的服務可以繼續運行一段時間（您可在黑域設定中修改）；當您從最近列表劃掉時，表明不再需要。在黑域管理界面，會顯示還未退出軟體的使用時長。</string>
+    <string name="fragment_guide_welcome_message2">黑域很喜歡 Android 的設計，當您使用返回鍵退出軟體時，軟體及所包含的服務不再運行；當您使用HOME鍵把軟體放到後台時，後台軟體及所包含的服務可以繼續運行一段時間（您可在黑域設定中修改）；當您從最近列表劃掉時，表明不再需要。在黑域管理界面，會顯示還未退出軟體的使用時長。</string>
 
     <string name="fragment_guide_permission">黑域所需權限</string>
     <string name="fragment_guide_permission_message">黑域需要您開機以後，以調試模式執行一個命令開啟黑域服務，讓黑域間接持有管理其它軟體的權限。</string>
@@ -38,7 +38,7 @@
     <string name="brevent_service_open_development">前往"開發人員選項"</string>
     <string name="brevent_service_adb_running">(已啟用)</string>
 
-    <string name="fragment_apps_user">用戶軟體</string>
+    <string name="fragment_apps_user">使用者軟體</string>
     <string name="fragment_apps_system">系統軟體</string>
     <string name="fragment_apps_framework">框架軟體</string>
 
@@ -87,10 +87,10 @@
     <string name="brevent_list">黑域清單</string>
     <string name="brevent_auto">自動黑域</string>
     <string name="brevent_auto_label">軟體安裝或刪除之後，更新黑域清單</string>
-    <string name="brevent_move_back">黑域 BACK 移到後台</string>
-    <string name="brevent_move_back_label">有些軟體在您按 BACK 時，不執行正常的 BACK 操作，移到後台。如果您並不是很清楚的知道 BACK 與 HOME 的區別，請關閉這個選項（僅支持 Android 7.0 及以上）</string>
-    <string name="brevent_back_home">黑域 BACK 打開啟動器</string>
-    <string name="brevent_back_home_label">有些軟體在您按 BACK 時，不執行正常的 BACK 操作，打開啟動器。如果您並不是很清楚的知道 BACK 與 HOME 的區別，請關閉這個選項。絕大部分情況下黑域都能有效區分，您也可連按 7 次 HOME 鍵來幫助黑域確認</string>
+    <string name="brevent_move_back">黑域返回鍵移到後台</string>
+    <string name="brevent_move_back_label">有些軟體在您按返回鍵時，不執行正常的返回鍵操作，移到後台。如果您並不是很清楚的知道返回鍵與HOME鍵的區別，請關閉這個選項（僅支持 Android 7.0 及以上）</string>
+    <string name="brevent_back_home">黑域返回鍵打開啟動器</string>
+    <string name="brevent_back_home_label">有些軟體在您按返回鍵時，不執行正常的返回鍵操作，打開啟動器。如果您並不是很清楚的知道返回鍵與HOME鍵的區別，請關閉這個選項。絕大部分情況下黑域都能有效區分，您也可連按 7 次HOME鍵鍵來幫助黑域確認</string>
     <string name="brevent_timeout">黑域後台軟體時間</string>
     <string name="brevent_timeout_label">離開後台軟體 %1$s後。後台軟體是指您還未退出的軟體，主界面動態顯示離開時間</string>
     <string name="brevent_timeout_never">永不</string>
@@ -105,7 +105,7 @@
     <string name="brevent_method_standby">優先休眠（非充電時），然後強行停止</string>
 
     <!-- settings user interface -->
-    <string name="brevent_ui">用戶界面</string>
+    <string name="brevent_ui">使用者界面</string>
     <string name="show_donation">顯示捐贈</string>
     <string name="show_donation_play_one">感謝您在 Play 商店捐贈 %d 美金</string>
     <string name="show_donation_play_multi" tools:ignore="PluralsCandidate">感謝您在 Play 商店捐贈 %1$d 次共 %2$d 美金</string>
