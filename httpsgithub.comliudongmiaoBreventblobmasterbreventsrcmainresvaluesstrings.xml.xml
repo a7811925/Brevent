@@ -5,7 +5,7 @@
     <string name="app_name">黑域</string>
 
     <string name="fragment_guide_welcome">歡迎安裝黑域</string>
-    <string name="fragment_guide_welcome_message">Android 系統離開軟體可以通過兩種按鍵，返回鍵退出軟體回到上層，HOME 把軟體放到後台打開啟動器；同時，允許軟體使用一直運行的服務。當然，您也可以直接從最近列表劃掉某個軟體，表明不再使用。
+    <string name="fragment_guide_welcome_message">Android 系統離開軟體可以通過兩種按鍵，返回鍵退出軟體回到上層，HOME鍵把軟體放到後台打開啟動器；同時，允許軟體使用一直運行的服務。當然，您也可以直接從最近列表劃掉某個軟體，表明不再使用。
 
 黑域通過這種方式識別您是否打開或已經退出，阻斷黑域清單裡的軟體在沒有使用的時候長期運行。對於被惡意喚醒的軟體，一律強行停止。</string>
     <string name="fragment_guide_welcome_message2">黑域很喜歡 Android 的設計，當您使用返回鍵退出軟體時，軟體及所包含的服務不再運行；當您使用HOME鍵把軟體放到後台時，後台軟體及所包含的服務可以繼續運行一段時間（您可在黑域設定中修改）；當您從最近列表劃掉時，表明不再需要。在黑域管理界面，會顯示還未退出軟體的使用時長。</string>
